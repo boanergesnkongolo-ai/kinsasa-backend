@@ -1,0 +1,12 @@
+node_modules/
+.env
+Firebasekey.json
+.DS_Store
+npm-debug.log*
+```
+
+- `node_modules/` : exclut les dépendances.  
+- `.env` : exclut tes variables d’environnement.  
+- `Firebasekey.json` : exclut ta clé privée Firebase.  
+- `.DS_Store` : fichier macOS à ignorer.  
+- `npm-debug.log*` : logs d’erreur npm.
