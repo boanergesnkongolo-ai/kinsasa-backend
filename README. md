@@ -1,0 +1,15 @@
+# Kinshasa Backend (fresh)
+
+## Setup local
+1. Copier `.env` avec:
+   - MONGO_URI=<your mongo uri>
+   - FIREBASE_KEY=<json stringified firebase service account (optional)>
+
+2. Installer:
+3. Lancer en dev:
+## Routes utiles
+- GET  /api/users
+- POST /api/users          { name, email }
+- GET  /api/reports
+- POST /api/reports       { title, description, location? }
+- PATCH /api/reports/:id  { status: "nouveau"|"en cours"|"traité" }
